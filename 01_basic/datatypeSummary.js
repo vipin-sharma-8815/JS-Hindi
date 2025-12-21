@@ -27,3 +27,37 @@ let myObj = {
 const myFuction = function() {
     console.log("Hello World")
 }
+
+
+
+
+
+
+
+// Type of Memory
+
+
+//Stack(Primitive), Heap(Non-Primitive)
+
+
+let myYoutubeName = "vipin.com"
+let anotherYoutubeName = myYoutubeName
+
+anotherYoutubeName = "Satyam.com"
+
+console.log(myYoutubeName)
+console.log(anotherYoutubeName)
+
+
+let upi = {
+    id: "12232343445",
+    email: "vipin.com"
+}
+
+let anotherUpi = upi;
+
+anotherUpi.email = "Satyam.com"
+
+console.log(upi.email)
+console.log(anotherUpi.email)
+
